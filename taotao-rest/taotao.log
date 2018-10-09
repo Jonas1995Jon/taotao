@@ -1,0 +1,253 @@
+2018-04-29 10:42:46,141 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbContentMapper'
+2018-04-29 10:42:46,141 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemCatMapper'
+2018-04-29 10:42:46,141 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemDescMapper'
+2018-04-29 10:42:46,141 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemMapper'
+2018-04-29 10:42:46,141 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemParamItemMapper'
+2018-04-29 10:42:46,141 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemParamMapper'
+2018-04-29 10:42:46,141 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbOrderItemMapper'
+2018-04-29 10:42:46,141 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbOrderMapper'
+2018-04-29 10:42:46,141 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbOrderShippingMapper'
+2018-04-29 10:42:46,141 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbUserMapper'
+2018-04-29 10:42:46,144 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-04-29 10:42:46,260 [main] [org.springframework.context.support.ClassPathXmlApplicationContext]-[DEBUG] Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@7e5c856f]
+2018-04-29 10:42:46,261 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-04-29 10:42:46,265 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-04-29 10:42:46,269 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2018-04-29 10:42:46,270 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'redisClient'
+2018-04-29 19:43:45,385 [main] [org.apache.solr.client.solrj.impl.HttpClientUtil]-[DEBUG] Creating new http client, config:maxConnections=128&maxConnectionsPerHost=32&followRedirects=false
+2018-04-29 19:43:47,010 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection request: [route: {}->http://127.0.0.1:8080][total kept alive: 0; route allocated: 0 of 32; total allocated: 0 of 128]
+2018-04-29 19:43:47,061 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection leased: [id: 0][route: {}->http://127.0.0.1:8080][total kept alive: 0; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-04-29 19:43:47,071 [main] [org.apache.http.impl.conn.DefaultClientConnectionOperator]-[DEBUG] Connecting to 127.0.0.1:8080
+2018-04-29 19:43:47,183 [main] [org.apache.http.client.protocol.RequestAddCookies]-[DEBUG] CookieSpec selected: best-match
+2018-04-29 19:43:47,234 [main] [org.apache.http.client.protocol.RequestAuthCache]-[DEBUG] Auth cache not set in the context
+2018-04-29 19:43:47,235 [main] [org.apache.http.client.protocol.RequestTargetAuthentication]-[DEBUG] Target auth state: UNCHALLENGED
+2018-04-29 19:43:47,237 [main] [org.apache.http.client.protocol.RequestProxyAuthentication]-[DEBUG] Proxy auth state: UNCHALLENGED
+2018-04-29 19:43:47,238 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Attempt 1 to execute request
+2018-04-29 19:43:47,239 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Sending request: POST /solr/update?wt=javabin&version=2 HTTP/1.1
+2018-04-29 19:43:47,241 [main] [org.apache.http.wire]-[DEBUG]  >> "POST /solr/update?wt=javabin&version=2 HTTP/1.1[\r][\n]"
+2018-04-29 19:43:47,245 [main] [org.apache.http.wire]-[DEBUG]  >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2018-04-29 19:43:47,246 [main] [org.apache.http.wire]-[DEBUG]  >> "Transfer-Encoding: chunked[\r][\n]"
+2018-04-29 19:43:47,250 [main] [org.apache.http.wire]-[DEBUG]  >> "Content-Type: application/xml; charset=UTF-8[\r][\n]"
+2018-04-29 19:43:47,251 [main] [org.apache.http.wire]-[DEBUG]  >> "Host: 127.0.0.1:8080[\r][\n]"
+2018-04-29 19:43:47,252 [main] [org.apache.http.wire]-[DEBUG]  >> "Connection: Keep-Alive[\r][\n]"
+2018-04-29 19:43:47,255 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-04-29 19:43:47,256 [main] [org.apache.http.headers]-[DEBUG] >> POST /solr/update?wt=javabin&version=2 HTTP/1.1
+2018-04-29 19:43:47,260 [main] [org.apache.http.headers]-[DEBUG] >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0
+2018-04-29 19:43:47,263 [main] [org.apache.http.headers]-[DEBUG] >> Transfer-Encoding: chunked
+2018-04-29 19:43:47,263 [main] [org.apache.http.headers]-[DEBUG] >> Content-Type: application/xml; charset=UTF-8
+2018-04-29 19:43:47,264 [main] [org.apache.http.headers]-[DEBUG] >> Host: 127.0.0.1:8080
+2018-04-29 19:43:47,264 [main] [org.apache.http.headers]-[DEBUG] >> Connection: Keep-Alive
+2018-04-29 19:43:47,267 [main] [org.apache.http.wire]-[DEBUG]  >> "96[\r][\n]"
+2018-04-29 19:43:47,267 [main] [org.apache.http.wire]-[DEBUG]  >> "<add><doc boost="1.0"><field name="item_title">[0xe6][0xb5][0x8b][0xe8][0xaf][0x95][0xe5][0x95][0x86][0xe5][0x93][0x81]</field><field name="item_price">123456</field><field name="id">test001</field></doc></add>"
+2018-04-29 19:43:47,270 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-04-29 19:43:47,271 [main] [org.apache.http.wire]-[DEBUG]  >> "0[\r][\n]"
+2018-04-29 19:43:47,271 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-04-29 19:43:47,637 [main] [org.apache.http.wire]-[DEBUG]  << "HTTP/1.1 200 [\r][\n]"
+2018-04-29 19:43:47,641 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Type: application/octet-stream[\r][\n]"
+2018-04-29 19:43:47,643 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Length: 41[\r][\n]"
+2018-04-29 19:43:47,643 [main] [org.apache.http.wire]-[DEBUG]  << "Date: Sun, 29 Apr 2018 11:43:47 GMT[\r][\n]"
+2018-04-29 19:43:47,644 [main] [org.apache.http.wire]-[DEBUG]  << "[\r][\n]"
+2018-04-29 19:43:47,648 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Receiving response: HTTP/1.1 200 
+2018-04-29 19:43:47,651 [main] [org.apache.http.headers]-[DEBUG] << HTTP/1.1 200 
+2018-04-29 19:43:47,651 [main] [org.apache.http.headers]-[DEBUG] << Content-Type: application/octet-stream
+2018-04-29 19:43:47,651 [main] [org.apache.http.headers]-[DEBUG] << Content-Length: 41
+2018-04-29 19:43:47,653 [main] [org.apache.http.headers]-[DEBUG] << Date: Sun, 29 Apr 2018 11:43:47 GMT
+2018-04-29 19:43:47,662 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Connection can be kept alive indefinitely
+2018-04-29 19:43:47,764 [main] [org.apache.http.wire]-[DEBUG]  << "[0x2][0xa1][0xe0].responseHeader[0xa2][0xe0]&status[0x6][0x0][0x0][0x0][0x0][0xe0]%QTimeY[0x14]"
+2018-04-29 19:43:47,771 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection [id: 0][route: {}->http://127.0.0.1:8080] can be kept alive indefinitely
+2018-04-29 19:43:47,773 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection released: [id: 0][route: {}->http://127.0.0.1:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-04-29 19:43:47,787 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection request: [route: {}->http://127.0.0.1:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-04-29 19:43:47,791 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection leased: [id: 0][route: {}->http://127.0.0.1:8080][total kept alive: 0; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-04-29 19:43:47,791 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Stale connection check
+2018-04-29 19:43:47,794 [main] [org.apache.http.client.protocol.RequestAddCookies]-[DEBUG] CookieSpec selected: best-match
+2018-04-29 19:43:47,796 [main] [org.apache.http.client.protocol.RequestAuthCache]-[DEBUG] Auth cache not set in the context
+2018-04-29 19:43:47,797 [main] [org.apache.http.client.protocol.RequestTargetAuthentication]-[DEBUG] Target auth state: UNCHALLENGED
+2018-04-29 19:43:47,797 [main] [org.apache.http.client.protocol.RequestProxyAuthentication]-[DEBUG] Proxy auth state: UNCHALLENGED
+2018-04-29 19:43:47,797 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Attempt 1 to execute request
+2018-04-29 19:43:47,797 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Sending request: POST /solr/update HTTP/1.1
+2018-04-29 19:43:47,798 [main] [org.apache.http.wire]-[DEBUG]  >> "POST /solr/update HTTP/1.1[\r][\n]"
+2018-04-29 19:43:47,801 [main] [org.apache.http.wire]-[DEBUG]  >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2018-04-29 19:43:47,802 [main] [org.apache.http.wire]-[DEBUG]  >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2018-04-29 19:43:47,802 [main] [org.apache.http.wire]-[DEBUG]  >> "Content-Length: 67[\r][\n]"
+2018-04-29 19:43:47,802 [main] [org.apache.http.wire]-[DEBUG]  >> "Host: 127.0.0.1:8080[\r][\n]"
+2018-04-29 19:43:47,802 [main] [org.apache.http.wire]-[DEBUG]  >> "Connection: Keep-Alive[\r][\n]"
+2018-04-29 19:43:47,804 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-04-29 19:43:47,807 [main] [org.apache.http.headers]-[DEBUG] >> POST /solr/update HTTP/1.1
+2018-04-29 19:43:47,808 [main] [org.apache.http.headers]-[DEBUG] >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2018-04-29 19:43:47,808 [main] [org.apache.http.headers]-[DEBUG] >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0
+2018-04-29 19:43:47,808 [main] [org.apache.http.headers]-[DEBUG] >> Content-Length: 67
+2018-04-29 19:43:47,811 [main] [org.apache.http.headers]-[DEBUG] >> Host: 127.0.0.1:8080
+2018-04-29 19:43:47,813 [main] [org.apache.http.headers]-[DEBUG] >> Connection: Keep-Alive
+2018-04-29 19:43:47,818 [main] [org.apache.http.wire]-[DEBUG]  >> "commit=true&softCommit=false&waitSearcher=true&wt=javabin&version=2"
+2018-04-29 19:43:48,592 [main] [org.apache.http.wire]-[DEBUG]  << "HTTP/1.1 200 [\r][\n]"
+2018-04-29 19:43:48,593 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Type: application/octet-stream[\r][\n]"
+2018-04-29 19:43:48,593 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Length: 41[\r][\n]"
+2018-04-29 19:43:48,594 [main] [org.apache.http.wire]-[DEBUG]  << "Date: Sun, 29 Apr 2018 11:43:47 GMT[\r][\n]"
+2018-04-29 19:43:48,594 [main] [org.apache.http.wire]-[DEBUG]  << "[\r][\n]"
+2018-04-29 19:43:48,594 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Receiving response: HTTP/1.1 200 
+2018-04-29 19:43:48,613 [main] [org.apache.http.headers]-[DEBUG] << HTTP/1.1 200 
+2018-04-29 19:43:48,613 [main] [org.apache.http.headers]-[DEBUG] << Content-Type: application/octet-stream
+2018-04-29 19:43:48,613 [main] [org.apache.http.headers]-[DEBUG] << Content-Length: 41
+2018-04-29 19:43:48,619 [main] [org.apache.http.headers]-[DEBUG] << Date: Sun, 29 Apr 2018 11:43:47 GMT
+2018-04-29 19:43:48,620 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Connection can be kept alive indefinitely
+2018-04-29 19:43:48,620 [main] [org.apache.http.wire]-[DEBUG]  << "[0x2][0xa1][0xe0].responseHeader[0xa2][0xe0]&status[0x6][0x0][0x0][0x0][0x0][0xe0]%QTimeQ0"
+2018-04-29 19:43:48,620 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection [id: 0][route: {}->http://127.0.0.1:8080] can be kept alive indefinitely
+2018-04-29 19:43:48,623 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection released: [id: 0][route: {}->http://127.0.0.1:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-04-29 19:44:21,315 [main] [org.apache.solr.client.solrj.impl.HttpClientUtil]-[DEBUG] Creating new http client, config:maxConnections=128&maxConnectionsPerHost=32&followRedirects=false
+2018-04-29 19:44:23,020 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection request: [route: {}->http://127.0.0.1:8080][total kept alive: 0; route allocated: 0 of 32; total allocated: 0 of 128]
+2018-04-29 19:44:23,091 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection leased: [id: 0][route: {}->http://127.0.0.1:8080][total kept alive: 0; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-04-29 19:44:23,097 [main] [org.apache.http.impl.conn.DefaultClientConnectionOperator]-[DEBUG] Connecting to 127.0.0.1:8080
+2018-04-29 19:44:23,239 [main] [org.apache.http.client.protocol.RequestAddCookies]-[DEBUG] CookieSpec selected: best-match
+2018-04-29 19:44:23,280 [main] [org.apache.http.client.protocol.RequestAuthCache]-[DEBUG] Auth cache not set in the context
+2018-04-29 19:44:23,281 [main] [org.apache.http.client.protocol.RequestTargetAuthentication]-[DEBUG] Target auth state: UNCHALLENGED
+2018-04-29 19:44:23,282 [main] [org.apache.http.client.protocol.RequestProxyAuthentication]-[DEBUG] Proxy auth state: UNCHALLENGED
+2018-04-29 19:44:23,285 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Attempt 1 to execute request
+2018-04-29 19:44:23,286 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Sending request: POST /solr/update?wt=javabin&version=2 HTTP/1.1
+2018-04-29 19:44:23,289 [main] [org.apache.http.wire]-[DEBUG]  >> "POST /solr/update?wt=javabin&version=2 HTTP/1.1[\r][\n]"
+2018-04-29 19:44:23,296 [main] [org.apache.http.wire]-[DEBUG]  >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2018-04-29 19:44:23,297 [main] [org.apache.http.wire]-[DEBUG]  >> "Transfer-Encoding: chunked[\r][\n]"
+2018-04-29 19:44:23,298 [main] [org.apache.http.wire]-[DEBUG]  >> "Content-Type: application/xml; charset=UTF-8[\r][\n]"
+2018-04-29 19:44:23,306 [main] [org.apache.http.wire]-[DEBUG]  >> "Host: 127.0.0.1:8080[\r][\n]"
+2018-04-29 19:44:23,306 [main] [org.apache.http.wire]-[DEBUG]  >> "Connection: Keep-Alive[\r][\n]"
+2018-04-29 19:44:23,308 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-04-29 19:44:23,310 [main] [org.apache.http.headers]-[DEBUG] >> POST /solr/update?wt=javabin&version=2 HTTP/1.1
+2018-04-29 19:44:23,311 [main] [org.apache.http.headers]-[DEBUG] >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0
+2018-04-29 19:44:23,320 [main] [org.apache.http.headers]-[DEBUG] >> Transfer-Encoding: chunked
+2018-04-29 19:44:23,320 [main] [org.apache.http.headers]-[DEBUG] >> Content-Type: application/xml; charset=UTF-8
+2018-04-29 19:44:23,320 [main] [org.apache.http.headers]-[DEBUG] >> Host: 127.0.0.1:8080
+2018-04-29 19:44:23,320 [main] [org.apache.http.headers]-[DEBUG] >> Connection: Keep-Alive
+2018-04-29 19:44:23,329 [main] [org.apache.http.wire]-[DEBUG]  >> "9b[\r][\n]"
+2018-04-29 19:44:23,338 [main] [org.apache.http.wire]-[DEBUG]  >> "<add><doc boost="1.0"><field name="item_title">[0xe6][0xb5][0x8b][0xe8][0xaf][0x95][0xe5][0x95][0x86][0xe5][0x93][0x81]adsfa</field><field name="item_price">123456</field><field name="id">test001</field></doc></add>"
+2018-04-29 19:44:23,338 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-04-29 19:44:23,344 [main] [org.apache.http.wire]-[DEBUG]  >> "0[\r][\n]"
+2018-04-29 19:44:23,344 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-04-29 19:44:23,380 [main] [org.apache.http.wire]-[DEBUG]  << "HTTP/1.1 200 [\r][\n]"
+2018-04-29 19:44:23,390 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Type: application/octet-stream[\r][\n]"
+2018-04-29 19:44:23,390 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Length: 41[\r][\n]"
+2018-04-29 19:44:23,391 [main] [org.apache.http.wire]-[DEBUG]  << "Date: Sun, 29 Apr 2018 11:44:23 GMT[\r][\n]"
+2018-04-29 19:44:23,396 [main] [org.apache.http.wire]-[DEBUG]  << "[\r][\n]"
+2018-04-29 19:44:23,404 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Receiving response: HTTP/1.1 200 
+2018-04-29 19:44:23,405 [main] [org.apache.http.headers]-[DEBUG] << HTTP/1.1 200 
+2018-04-29 19:44:23,405 [main] [org.apache.http.headers]-[DEBUG] << Content-Type: application/octet-stream
+2018-04-29 19:44:23,405 [main] [org.apache.http.headers]-[DEBUG] << Content-Length: 41
+2018-04-29 19:44:23,405 [main] [org.apache.http.headers]-[DEBUG] << Date: Sun, 29 Apr 2018 11:44:23 GMT
+2018-04-29 19:44:23,426 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Connection can be kept alive indefinitely
+2018-04-29 19:44:23,495 [main] [org.apache.http.wire]-[DEBUG]  << "[0x2][0xa1][0xe0].responseHeader[0xa2][0xe0]&status[0x6][0x0][0x0][0x0][0x0][0xe0]%QTimeP[0x2]"
+2018-04-29 19:44:23,498 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection [id: 0][route: {}->http://127.0.0.1:8080] can be kept alive indefinitely
+2018-04-29 19:44:23,503 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection released: [id: 0][route: {}->http://127.0.0.1:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-04-29 19:44:23,516 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection request: [route: {}->http://127.0.0.1:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-04-29 19:44:23,519 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection leased: [id: 0][route: {}->http://127.0.0.1:8080][total kept alive: 0; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-04-29 19:44:23,519 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Stale connection check
+2018-04-29 19:44:23,523 [main] [org.apache.http.client.protocol.RequestAddCookies]-[DEBUG] CookieSpec selected: best-match
+2018-04-29 19:44:23,523 [main] [org.apache.http.client.protocol.RequestAuthCache]-[DEBUG] Auth cache not set in the context
+2018-04-29 19:44:23,523 [main] [org.apache.http.client.protocol.RequestTargetAuthentication]-[DEBUG] Target auth state: UNCHALLENGED
+2018-04-29 19:44:23,524 [main] [org.apache.http.client.protocol.RequestProxyAuthentication]-[DEBUG] Proxy auth state: UNCHALLENGED
+2018-04-29 19:44:23,524 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Attempt 1 to execute request
+2018-04-29 19:44:23,524 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Sending request: POST /solr/update HTTP/1.1
+2018-04-29 19:44:23,524 [main] [org.apache.http.wire]-[DEBUG]  >> "POST /solr/update HTTP/1.1[\r][\n]"
+2018-04-29 19:44:23,525 [main] [org.apache.http.wire]-[DEBUG]  >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2018-04-29 19:44:23,526 [main] [org.apache.http.wire]-[DEBUG]  >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2018-04-29 19:44:23,526 [main] [org.apache.http.wire]-[DEBUG]  >> "Content-Length: 67[\r][\n]"
+2018-04-29 19:44:23,526 [main] [org.apache.http.wire]-[DEBUG]  >> "Host: 127.0.0.1:8080[\r][\n]"
+2018-04-29 19:44:23,526 [main] [org.apache.http.wire]-[DEBUG]  >> "Connection: Keep-Alive[\r][\n]"
+2018-04-29 19:44:23,526 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-04-29 19:44:23,526 [main] [org.apache.http.headers]-[DEBUG] >> POST /solr/update HTTP/1.1
+2018-04-29 19:44:23,530 [main] [org.apache.http.headers]-[DEBUG] >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2018-04-29 19:44:23,530 [main] [org.apache.http.headers]-[DEBUG] >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0
+2018-04-29 19:44:23,530 [main] [org.apache.http.headers]-[DEBUG] >> Content-Length: 67
+2018-04-29 19:44:23,531 [main] [org.apache.http.headers]-[DEBUG] >> Host: 127.0.0.1:8080
+2018-04-29 19:44:23,532 [main] [org.apache.http.headers]-[DEBUG] >> Connection: Keep-Alive
+2018-04-29 19:44:23,535 [main] [org.apache.http.wire]-[DEBUG]  >> "commit=true&softCommit=false&waitSearcher=true&wt=javabin&version=2"
+2018-04-29 19:44:24,197 [main] [org.apache.http.wire]-[DEBUG]  << "HTTP/1.1 200 [\r][\n]"
+2018-04-29 19:44:24,197 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Type: application/octet-stream[\r][\n]"
+2018-04-29 19:44:24,197 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Length: 41[\r][\n]"
+2018-04-29 19:44:24,197 [main] [org.apache.http.wire]-[DEBUG]  << "Date: Sun, 29 Apr 2018 11:44:23 GMT[\r][\n]"
+2018-04-29 19:44:24,201 [main] [org.apache.http.wire]-[DEBUG]  << "[\r][\n]"
+2018-04-29 19:44:24,202 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Receiving response: HTTP/1.1 200 
+2018-04-29 19:44:24,219 [main] [org.apache.http.headers]-[DEBUG] << HTTP/1.1 200 
+2018-04-29 19:44:24,219 [main] [org.apache.http.headers]-[DEBUG] << Content-Type: application/octet-stream
+2018-04-29 19:44:24,219 [main] [org.apache.http.headers]-[DEBUG] << Content-Length: 41
+2018-04-29 19:44:24,219 [main] [org.apache.http.headers]-[DEBUG] << Date: Sun, 29 Apr 2018 11:44:23 GMT
+2018-04-29 19:44:24,220 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Connection can be kept alive indefinitely
+2018-04-29 19:44:24,220 [main] [org.apache.http.wire]-[DEBUG]  << "[0x2][0xa1][0xe0].responseHeader[0xa2][0xe0]&status[0x6][0x0][0x0][0x0][0x0][0xe0]%QTimeS)"
+2018-04-29 19:44:24,220 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection [id: 0][route: {}->http://127.0.0.1:8080] can be kept alive indefinitely
+2018-04-29 19:44:24,223 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection released: [id: 0][route: {}->http://127.0.0.1:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-04-29 19:45:02,041 [main] [org.apache.solr.client.solrj.impl.HttpClientUtil]-[DEBUG] Creating new http client, config:maxConnections=128&maxConnectionsPerHost=32&followRedirects=false
+2018-04-29 19:45:03,046 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection request: [route: {}->http://127.0.0.1:8080][total kept alive: 0; route allocated: 0 of 32; total allocated: 0 of 128]
+2018-04-29 19:45:03,091 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection leased: [id: 0][route: {}->http://127.0.0.1:8080][total kept alive: 0; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-04-29 19:45:03,099 [main] [org.apache.http.impl.conn.DefaultClientConnectionOperator]-[DEBUG] Connecting to 127.0.0.1:8080
+2018-04-29 19:45:03,161 [main] [org.apache.http.client.protocol.RequestAddCookies]-[DEBUG] CookieSpec selected: best-match
+2018-04-29 19:45:03,195 [main] [org.apache.http.client.protocol.RequestAuthCache]-[DEBUG] Auth cache not set in the context
+2018-04-29 19:45:03,197 [main] [org.apache.http.client.protocol.RequestTargetAuthentication]-[DEBUG] Target auth state: UNCHALLENGED
+2018-04-29 19:45:03,200 [main] [org.apache.http.client.protocol.RequestProxyAuthentication]-[DEBUG] Proxy auth state: UNCHALLENGED
+2018-04-29 19:45:03,201 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Attempt 1 to execute request
+2018-04-29 19:45:03,204 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Sending request: POST /solr/update?wt=javabin&version=2 HTTP/1.1
+2018-04-29 19:45:03,205 [main] [org.apache.http.wire]-[DEBUG]  >> "POST /solr/update?wt=javabin&version=2 HTTP/1.1[\r][\n]"
+2018-04-29 19:45:03,209 [main] [org.apache.http.wire]-[DEBUG]  >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2018-04-29 19:45:03,209 [main] [org.apache.http.wire]-[DEBUG]  >> "Transfer-Encoding: chunked[\r][\n]"
+2018-04-29 19:45:03,213 [main] [org.apache.http.wire]-[DEBUG]  >> "Content-Type: application/xml; charset=UTF-8[\r][\n]"
+2018-04-29 19:45:03,214 [main] [org.apache.http.wire]-[DEBUG]  >> "Host: 127.0.0.1:8080[\r][\n]"
+2018-04-29 19:45:03,214 [main] [org.apache.http.wire]-[DEBUG]  >> "Connection: Keep-Alive[\r][\n]"
+2018-04-29 19:45:03,223 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-04-29 19:45:03,224 [main] [org.apache.http.headers]-[DEBUG] >> POST /solr/update?wt=javabin&version=2 HTTP/1.1
+2018-04-29 19:45:03,230 [main] [org.apache.http.headers]-[DEBUG] >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0
+2018-04-29 19:45:03,232 [main] [org.apache.http.headers]-[DEBUG] >> Transfer-Encoding: chunked
+2018-04-29 19:45:03,232 [main] [org.apache.http.headers]-[DEBUG] >> Content-Type: application/xml; charset=UTF-8
+2018-04-29 19:45:03,234 [main] [org.apache.http.headers]-[DEBUG] >> Host: 127.0.0.1:8080
+2018-04-29 19:45:03,235 [main] [org.apache.http.headers]-[DEBUG] >> Connection: Keep-Alive
+2018-04-29 19:45:03,236 [main] [org.apache.http.wire]-[DEBUG]  >> "21[\r][\n]"
+2018-04-29 19:45:03,236 [main] [org.apache.http.wire]-[DEBUG]  >> "<delete><id>test001</id></delete>"
+2018-04-29 19:45:03,236 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-04-29 19:45:03,243 [main] [org.apache.http.wire]-[DEBUG]  >> "0[\r][\n]"
+2018-04-29 19:45:03,243 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-04-29 19:45:03,254 [main] [org.apache.http.wire]-[DEBUG]  << "HTTP/1.1 200 [\r][\n]"
+2018-04-29 19:45:03,260 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Type: application/octet-stream[\r][\n]"
+2018-04-29 19:45:03,263 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Length: 40[\r][\n]"
+2018-04-29 19:45:03,263 [main] [org.apache.http.wire]-[DEBUG]  << "Date: Sun, 29 Apr 2018 11:45:03 GMT[\r][\n]"
+2018-04-29 19:45:03,263 [main] [org.apache.http.wire]-[DEBUG]  << "[\r][\n]"
+2018-04-29 19:45:03,264 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Receiving response: HTTP/1.1 200 
+2018-04-29 19:45:03,265 [main] [org.apache.http.headers]-[DEBUG] << HTTP/1.1 200 
+2018-04-29 19:45:03,265 [main] [org.apache.http.headers]-[DEBUG] << Content-Type: application/octet-stream
+2018-04-29 19:45:03,265 [main] [org.apache.http.headers]-[DEBUG] << Content-Length: 40
+2018-04-29 19:45:03,265 [main] [org.apache.http.headers]-[DEBUG] << Date: Sun, 29 Apr 2018 11:45:03 GMT
+2018-04-29 19:45:03,286 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Connection can be kept alive indefinitely
+2018-04-29 19:45:03,365 [main] [org.apache.http.wire]-[DEBUG]  << "[0x2][0xa1][0xe0].responseHeader[0xa2][0xe0]&status[0x6][0x0][0x0][0x0][0x0][0xe0]%QTimeG"
+2018-04-29 19:45:03,373 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection [id: 0][route: {}->http://127.0.0.1:8080] can be kept alive indefinitely
+2018-04-29 19:45:03,386 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection released: [id: 0][route: {}->http://127.0.0.1:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-04-29 19:45:03,394 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection request: [route: {}->http://127.0.0.1:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-04-29 19:45:03,399 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection leased: [id: 0][route: {}->http://127.0.0.1:8080][total kept alive: 0; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-04-29 19:45:03,400 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Stale connection check
+2018-04-29 19:45:03,402 [main] [org.apache.http.client.protocol.RequestAddCookies]-[DEBUG] CookieSpec selected: best-match
+2018-04-29 19:45:03,402 [main] [org.apache.http.client.protocol.RequestAuthCache]-[DEBUG] Auth cache not set in the context
+2018-04-29 19:45:03,402 [main] [org.apache.http.client.protocol.RequestTargetAuthentication]-[DEBUG] Target auth state: UNCHALLENGED
+2018-04-29 19:45:03,402 [main] [org.apache.http.client.protocol.RequestProxyAuthentication]-[DEBUG] Proxy auth state: UNCHALLENGED
+2018-04-29 19:45:03,402 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Attempt 1 to execute request
+2018-04-29 19:45:03,403 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Sending request: POST /solr/update HTTP/1.1
+2018-04-29 19:45:03,403 [main] [org.apache.http.wire]-[DEBUG]  >> "POST /solr/update HTTP/1.1[\r][\n]"
+2018-04-29 19:45:03,407 [main] [org.apache.http.wire]-[DEBUG]  >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2018-04-29 19:45:03,407 [main] [org.apache.http.wire]-[DEBUG]  >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2018-04-29 19:45:03,407 [main] [org.apache.http.wire]-[DEBUG]  >> "Content-Length: 67[\r][\n]"
+2018-04-29 19:45:03,408 [main] [org.apache.http.wire]-[DEBUG]  >> "Host: 127.0.0.1:8080[\r][\n]"
+2018-04-29 19:45:03,408 [main] [org.apache.http.wire]-[DEBUG]  >> "Connection: Keep-Alive[\r][\n]"
+2018-04-29 19:45:03,408 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-04-29 19:45:03,408 [main] [org.apache.http.headers]-[DEBUG] >> POST /solr/update HTTP/1.1
+2018-04-29 19:45:03,410 [main] [org.apache.http.headers]-[DEBUG] >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2018-04-29 19:45:03,410 [main] [org.apache.http.headers]-[DEBUG] >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0
+2018-04-29 19:45:03,410 [main] [org.apache.http.headers]-[DEBUG] >> Content-Length: 67
+2018-04-29 19:45:03,415 [main] [org.apache.http.headers]-[DEBUG] >> Host: 127.0.0.1:8080
+2018-04-29 19:45:03,416 [main] [org.apache.http.headers]-[DEBUG] >> Connection: Keep-Alive
+2018-04-29 19:45:03,418 [main] [org.apache.http.wire]-[DEBUG]  >> "commit=true&softCommit=false&waitSearcher=true&wt=javabin&version=2"
+2018-04-29 19:45:03,568 [main] [org.apache.http.wire]-[DEBUG]  << "HTTP/1.1 200 [\r][\n]"
+2018-04-29 19:45:03,572 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Type: application/octet-stream[\r][\n]"
+2018-04-29 19:45:03,572 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Length: 41[\r][\n]"
+2018-04-29 19:45:03,572 [main] [org.apache.http.wire]-[DEBUG]  << "Date: Sun, 29 Apr 2018 11:45:03 GMT[\r][\n]"
+2018-04-29 19:45:03,572 [main] [org.apache.http.wire]-[DEBUG]  << "[\r][\n]"
+2018-04-29 19:45:03,573 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Receiving response: HTTP/1.1 200 
+2018-04-29 19:45:03,607 [main] [org.apache.http.headers]-[DEBUG] << HTTP/1.1 200 
+2018-04-29 19:45:03,607 [main] [org.apache.http.headers]-[DEBUG] << Content-Type: application/octet-stream
+2018-04-29 19:45:03,607 [main] [org.apache.http.headers]-[DEBUG] << Content-Length: 41
+2018-04-29 19:45:03,608 [main] [org.apache.http.headers]-[DEBUG] << Date: Sun, 29 Apr 2018 11:45:03 GMT
+2018-04-29 19:45:03,611 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Connection can be kept alive indefinitely
+2018-04-29 19:45:03,612 [main] [org.apache.http.wire]-[DEBUG]  << "[0x2][0xa1][0xe0].responseHeader[0xa2][0xe0]&status[0x6][0x0][0x0][0x0][0x0][0xe0]%QTimeT[0x9]"
+2018-04-29 19:45:03,612 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection [id: 0][route: {}->http://127.0.0.1:8080] can be kept alive indefinitely
+2018-04-29 19:45:03,623 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection released: [id: 0][route: {}->http://127.0.0.1:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
